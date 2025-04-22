@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Shaohao Rui"
+description              : "Ph.D. student at Shanghai Jiao Tong University, Shanghai AI Laboratory and Shanghai Innovation Institute, advised by Prof. Xiaosong Wang. "
+repository               : "shaohao011/shaohao011.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -27,8 +27,8 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=75EJxB4AAAAJ"
+  email            : "ruishaohao@sjtu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/shaohao011"
   google_plus      :
   keybase          :
   instagram        :
