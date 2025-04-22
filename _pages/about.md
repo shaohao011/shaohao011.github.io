@@ -34,7 +34,7 @@ I am dedicated to exploring the applications of artificial intelligence in the m
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/cvpr2025.png' alt="BrainMVP" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[BrainMVP: Multi-modal Vision Pre-training for Medical Image Analysis](https://github.com/shaohao011/BrainMVP)[CVPR2025 Highlight]
+[BrainMVP: Multi-modal Vision Pre-training for Medical Image Analysis](https://github.com/shaohao011/BrainMVP)***[CVPR2025 Highlight]***
 
 ***Shaohao Rui***, Lingzhi Chen, Zhenyu Tang, Lilong Wang, Mianxin Liu, Shaoting Zhang, Xiaosong Wang
 
