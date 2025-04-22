@@ -23,7 +23,7 @@ I am dedicated to exploring the applications of artificial intelligence in the m
 
 
 # 🔥 News
-- [2025-02] One first author and two co-authored papers submitted to MICCAI 2025 — hope for good luck!
+- [2025-02] One first author and two co-authored papers submitted to MICCAI 2025, hope good luck!
 - [2025-02] 🎉🎉🎉 One first author work "Multi-modal Vision Pre-training for Medical Image Analysis" is accepted by CVPR 2025 as Highlight.
 - [2024-09] Start joint Ph.D. program at Shanghai Innovation Institute.
 - [2023-09] Begin internship and joint program at Shanghai AI Laboratory.
