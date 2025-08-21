@@ -89,7 +89,7 @@ Lian-Ming Wu, and Xiaosong Wang
 <p>
   <center>
   <div id="clustrmaps-widget" style="width:100%">
-  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=KAE2DNI6TdSULh7o_SWlymdZDp12ntmLHZDHfgdpkdQ&co=2d78ad&cmo=ff0000&cmn=ffb800&ct=ffffff'></script>
+  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=VKem6KGRbZnPBJRQf_6HAyxQnIXt5Paw0U1zfFjbuwU'></script>
   </div> 
   </center>
  </p >
