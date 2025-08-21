@@ -26,7 +26,7 @@ Research Interest: CV, VLM, Reasoning in LLM/VLM, SSL, Multi-modal
 - [2025-02] 🎉🎉🎉 Two papers accpeted by MICCAI 2025
 - [2025-02] 🎉🎉🎉 One first author work "Multi-modal Vision Pre-training for Medical Image Analysis" is accepted by CVPR 2025 as Highlight.
 - [2024-09] Start joint Ph.D. program at Shanghai Innovation Institute.
-- [2023-09] Begin internship and joint program at Shanghai AI Laboratory.
+- [2023-09] Begin internship at Shanghai AI Laboratory.
 
 
 # 📝 Selected Publications 
@@ -64,7 +64,7 @@ benchmarks compared to state-of-the-art methods.</span>
 [CardioCoT: Hierarchical Reasoning for
 Multimodal Survival Analysis](https://github.com/shaohao011/MACE-MAIS)***[arXiv]***
 
-Shaohao Rui, Haoyang Su, Jinyi Xiang,
+**Shaohao Rui**, Haoyang Su, Jinyi Xiang,
 Lian-Ming Wu, and Xiaosong Wang
 
 <span> We propose CardioCoT, a hierarchical reasoning-enhanced survival analysis framework for MACE recurrence risk prediction in AMI patients, leveraging postoperative cardiac MRI and clinical notes. CardioCoT integrates evidence-augmented reasoning with imaging data, achieving superior predictive performance and interpretability to support precision clinical decision-making.</span>
