@@ -58,7 +58,7 @@ benchmarks compared to state-of-the-art methods.</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/medcco_overview.png' alt="CardioCoT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/cardio_cot.png' alt="CardioCoT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CardioCoT: Hierarchical Reasoning for
