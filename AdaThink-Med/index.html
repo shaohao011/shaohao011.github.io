@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration">
+  <meta name="keywords" content="AdaThink-Med, Medical, Adaptive Thinking, Uncertainty, Length Calibration">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://shaohao011.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+
+          <a class="navbar-item" href="https://AdaThink-Med.github.io">
+            AdaThink-Med
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://shaohao011.github.io/">Shaohao Rui</a><sup>1,2,3</sup>,</span>
+            <span class="author-block">
+              <a href="">Kaitao Chen</a><sup>3,4</sup>,</span>
+            <span class="author-block">
+              <a href="https://weijiemax.github.io/">Weijie Ma</a><sup>2,3,4</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://xiaosongwang.github.io/">Xiaosong Wang</a><sup>2,3</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University,</span>
+            <span class="author-block"><sup>2</sup>Shanghai Innovation Institute</span>
+            <span class="author-block"><sup>3</sup>Shanghai AI Lab</span>
+            <span class="author-block"><sup>4</sup>Fudan University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link.
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+                <span class="link-block">
+                  <a href=""
+                      class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+                            alt="Hugging Face" style="height:1em;">
+                    </span>
+                    <span>HuggingFace</span>
+                  </a>
+                </span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title has-text-centered">Introduction</h2>
+      <p class="subtitle" style="text-align: justify;">
+        Recent advances in inference time scaling with extended long chain-of thought have significantly improved the reasoning capabilities of both general and medical large language models (LLMs). However, these models tend to engage in lengthy reasoning processes regardless of the difficulty of the input question, leading to increased inference costs in real-world applications. Therefore, enabling adaptive thinking where models think less for simpler questions and think more for complex ones is critical for the effective use of medical LLMs in practice. Despite its importance, there is a lack of end-to-end approaches designed to enhance the adaptive thinking capabilities of medical LLMs while providing a comprehensive examination of the trade-off between performance and computational cost. To bridge this gap, we propose <b>AdaThink-Med</b>, the first end-to-end framework designed to enhance adaptive thinking ability in medical reasoning models with uncertainty-guided length calibration. AdaThink-Med first generates multiple candidate outputs for each question, evaluates the correctness and uncertainty of each candidate, and then estimates problem difficulty via an uncertainty-guided length calibration module. For outputs with low difficulty and correct answers, the framework penalizes longer reasoning paths; whereas for those with high difficulty and incorrect answers, it encourages extending the chain of thought to explore alternative solutions. On six public medical QA benchmarks, AdaThink-Med achieves up to <b>6.4×</b> length reduction on average while retaining performance with only minimal degradation. Intriguingly, we observe that AdaThink-Med spontaneously develops two distinct reasoning modes, which we characterize as “non-thinking” and “thinking”, demonstrating the model's ability to suppress redundant reasoning processes dynamically.
+      </p>
+      <img src="./static/imges_sh/overview.png" 
+           alt="overview of AdaThink-Med" 
+           style="width:100%; height:auto;">
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title has-text-centered">Length Reward Hack</h2>
+      <p class="subtitle" style="text-align: justify;">
+        We conduct pilot experiments to investigate greedy output length reduction strategies that do not explicitly incentivize incorrect responses. Two representative approaches are Kimi1.5, which enforces uniform length reduction across all samples, and ShortBetter, which drives responses toward the minimal length among correct samples. As shown in (a), the absence of such compensation causes both Kimi1.5 and ShortBetter to collapse in terms of output length and accuracy. We initially suspect that this collapse primarily arises in close-ended tasks, where the presence of candidate answers allows the model to adopt a trivial strategy of directly outputting the final answer without any reasoning. To avoid this shortcut, we adopt an open-ended RL setting following HuatuoGPT-o1, where the model must reason and answer using its world knowledge without being provided candidate options. As shown in (b), even in the open-ended setting, greedy length calibration leads to collapse, with both accuracy and output length dropping sharply and failing to recover. Moreover, we found that the collapsed model no longer produces meaningful answers or follows instructions. We attribute this phenomenon to a form of length reward hack: in its search for shorter responses, the model converges to a minimal-length strategy that maintains apparent accuracy while maximizing length-based rewards. This shortcut undermines the emergence of diverse reasoning patterns and degrades instruction following. To address this issue, we introduce a performance compensation mechanism that penalizes shorter outputs when accuracy degrades. This encourages the model to achieve a more balanced trade-off between performance and efficiency, ultimately leading to stable training dynamics.
+      </p>
+      <img src="./static/imges_sh/len_hack.png" 
+           alt="Length Reward Hack" 
+           style="width:100%; height:auto;">
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title has-text-centered">Main Results</h2>
+      <img src="./static/imges_sh/main.png" 
+           alt="Main Results" 
+           style="width:100%; height:auto;">
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title has-text-centered">Performance Comparison with Calibration Methods</h2>
+      <img src="./static/imges_sh/calibration_methods.png" 
+           alt="Performance Comparison with Calibration Methods" 
+           style="width:100%; height:auto;">
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title has-text-centered">Emergence of Reasoning Modes</h2>
+      <img src="./static/imges_sh/length_distribution_selection.png" 
+           alt="Emergence of Reasoning Modes" 
+           style="width:100%; height:auto;">
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/shaohao011" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/shaohao011/AdaThink-Med.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
