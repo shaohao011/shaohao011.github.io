@@ -16,9 +16,9 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm now a PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>, <a href='https://www.shlab.org.cn/'>Shanghai AI Laboratory</a> and Shanghai Innovation Institute, advised by Prof. Xiaosong Wang.
+I'm now a PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>, <a href='https://www.sii.edu.cn/'>Shanghai Innovation Institute</a>, advised by Prof. <a href='https://scholar.google.com/citations?user=c66GnOEAAAAJ&hl=en'>Xiaosong Wang</a> and <a href='https://scholar.google.com/citations?hl=zh-CN&user=4OqZBmYAAAAJ&view_op'>KaiPeng Zhang</a>.
 
-Research Interest: CV, VLM, Reasoning in LLM/VLM, SSL, Multi-modal
+Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning 
 
 
 
