@@ -23,10 +23,14 @@ Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning
 
 
 # 🔥 News
-- [2025-02] 🎉🎉🎉 Two papers accpeted by MICCAI 2025
-- [2025-02] 🎉🎉🎉 One first author work "Multi-modal Vision Pre-training for Medical Image Analysis" is accepted by CVPR 2025 as Highlight.
-- [2024-09] Start joint Ph.D. program at Shanghai Innovation Institute.
-- [2023-09] Begin internship at Shanghai AI Laboratory.
+- [2026-05] 🎉 One paper accepted by ICML 2026.
+- [2026-02] 🎉 One paper accepted by CVPR 2026.
+- [2026-01] 🎉 One paper accepted by ICASSP 2026 as Oral.
+- [2025-12] Started internship at Shanda AI Tokyo Research Institute (盛大 AI 东京研究院).
+- [2025-02] 🎉 Two papers accepted by MICCAI 2025.
+- [2025-02] 🎉 One paper accepted by CVPR 2025 as Highlight.
+- [2024-09] Started joint Ph.D. program at Shanghai Innovation Institute.
+- [2023-09] Started internship at Shanghai AI Laboratory.
 
 
 # 📝 Selected Publications 
@@ -45,16 +49,46 @@ benchmarks compared to state-of-the-art methods.</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/medcco_overview.png' alt="MedCCO" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/invcoss.png' alt="InvCoSS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MedCCO: Improving Medical Reasoning with Curriculum-Aware Reinforcement Learning](https://github.com/shaohao011/MedCCO)***[NeurIPS Under Review]***
+[InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training](https://arxiv.org/abs/2512.19213)***[CVPR 2026]***
 
-**Shaohao Rui**, Kaitao Chen, Weijie Ma, Xiaosong Wang
+***Zihao Luo***<sup>*</sup>, ***Shaohao Rui***<sup>*</sup>, Zhenyu Tang, Guotai Wang, Xiaosong Wang
 
-<span> We introduce MedCCO, the first multimodal reinforcement learning framework for medical VQA that unifies close-ended and open-ended data within a curriculum-driven fine-tuning paradigm. MedCCO significantly improves clinical reasoning and generalization across eight benchmarks, achieving 11.4% in-domain and 5.7% out-of-domain performance gains over prior methods.</span>
+<span style="font-size:0.9em"><sup>*</sup> Equal contribution.</span>
 
-[**Github** ![](https://img.shields.io/github/stars/shaohao011/MedCCO)](https://github.com/shaohao011/MedCCO)
+<span> We propose InvCoSS, an inversion-driven continual self-supervised learning framework for medical multi-modal image pre-training. It synthesizes images by inverting prior-stage models—avoiding raw data replay—while mitigating catastrophic forgetting under privacy constraints. We introduce InvUNet for higher-fidelity inversion and repulsive representation learning to improve diversity; experiments on nine downstream tasks show performance comparable to or better than data-replay methods without storing past raw data.</span>
+
+[**Github** ![](https://img.shields.io/github/stars/Zihaoluoh/InvCoSS)](https://github.com/Zihaoluoh/InvCoSS)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://raw.githubusercontent.com/ShandaAI/PackForcing/main/assets/overview.png' alt="PackForcing" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference](https://arxiv.org/abs/2603.25730)***[arXiv]***
+
+***Xiaofeng Mao***<sup>*</sup>, ***Shaohao Rui***<sup>*</sup>, Kaining Ying, Bo Zheng, Chuanhao Li, Mingmin Chi, Kaipeng Zhang
+
+<span style="font-size:0.9em"><sup>*</sup> Equal contribution.</span>
+
+<span> We present PackForcing, a framework for autoregressive video diffusion that manages generation history with a three-partition KV-cache: sink tokens for global semantics, highly compressed mid tokens (with dynamic top-k selection), and full-resolution recent tokens for local coherence, plus Temporal RoPE adjustment. It enables long coherent video generation with bounded memory—for example ~2-minute 832×480 video at 16 FPS on one H200 with ~4 GB KV cache and strong VBench temporal metrics—using only short-clip supervision.</span>
+
+[**Github** ![](https://img.shields.io/github/stars/ShandaAI/PackForcing)](https://github.com/ShandaAI/PackForcing)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration](https://arxiv.org/abs/2509.24560)***[ICML 2026]***
+
+***Shaohao Rui***, Kaitao Chen, Weijie Ma, Xiaosong Wang
+
+<span> We propose AdaThink-Med, an end-to-end framework that improves adaptive thinking in medical reasoning LLMs via uncertainty-guided length calibration—penalizing overly long chains on easy, solved cases while encouraging deeper reasoning on hard ones. On six medical QA benchmarks it cuts average output length by up to 6.4× with only minor accuracy loss and yields emergent “thinking” vs. “non-thinking” modes.</span>
+
+[**Github** ![](https://img.shields.io/github/stars/shaohao011/AdaThinkMed)](https://github.com/shaohao011/AdaThinkMed)
 </div>
 </div>
 
@@ -62,7 +96,7 @@ benchmarks compared to state-of-the-art methods.</span>
 <div class='paper-box-text' markdown="1">
 
 [CardioCoT: Hierarchical Reasoning for
-Multimodal Survival Analysis](https://github.com/shaohao011/MACE-MAIS)***[arXiv]***
+Multimodal Survival Analysis](https://ieeexplore.ieee.org/abstract/document/11461484)***[ICASSP Oral]***
 
 **Shaohao Rui**, Haoyang Su, Jinyi Xiang,
 Lian-Ming Wu, and Xiaosong Wang
