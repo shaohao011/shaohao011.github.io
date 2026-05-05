@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-LynnReal | I'm now a PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>, advised by Prof. <a href='https://scholar.google.com/citations?user=c66GnOEAAAAJ&hl=en'>Xiaosong Wang</a> and <a href='https://scholar.google.com/citations?hl=zh-CN&user=4OqZBmYAAAAJ&view_op'>KaiPeng Zhang</a>.
+I'm now a PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>, <a href='https://www.sii.edu.cn/'>Shanghai Innovation Institute</a>, advised by Prof. <a href='https://scholar.google.com/citations?user=c66GnOEAAAAJ&hl=en'>Xiaosong Wang</a> and <a href='https://scholar.google.com/citations?hl=zh-CN&user=4OqZBmYAAAAJ&view_op'>KaiPeng Zhang</a>.
 
 <span style="color: #e74c3c; font-style: italic;">NOTE: I'm currently working on a startup focusing on glasses-free 3D display technology. Welcome students with backgrounds in 3D reconstruction and interactive world models to apply for internships and collaborate! Please send your resume to hr@lynnreal.com</span>
 
@@ -50,7 +50,7 @@ benchmarks compared to state-of-the-art methods.</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/invcoss.png' alt="InvCoSS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://raw.githubusercontent.com/Zihaoluoh/InvCoSS/main/assets/invcoss.png' alt="InvCoSS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training](https://arxiv.org/abs/2512.19213)***[CVPR 2026]***
@@ -80,7 +80,7 @@ benchmarks compared to state-of-the-art methods.</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://raw.githubusercontent.com/shaohao011/AdaThinkMed/main/assets/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration](https://arxiv.org/abs/2509.24560)***[ICML 2026]***
