@@ -50,7 +50,7 @@ benchmarks compared to state-of-the-art methods.</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://raw.githubusercontent.com/Zihaoluoh/InvCoSS/main/assets/invcoss.png' alt="InvCoSS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/invcoss.png' alt="InvCoSS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training](https://arxiv.org/abs/2512.19213)***[CVPR 2026]***
@@ -80,7 +80,7 @@ benchmarks compared to state-of-the-art methods.</span>
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://raw.githubusercontent.com/shaohao011/AdaThinkMed/main/assets/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration](https://arxiv.org/abs/2509.24560)***[ICML 2026]***
