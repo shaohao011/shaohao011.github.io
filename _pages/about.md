@@ -120,7 +120,7 @@ Lian-Ming Wu, and Xiaosong Wang
 
 # 💼 Internships
 - *2025.12 - 2026.04*, Shanda AI Tokyo Research Institute (盛大 AI 东京研究院), Tokyo, Japan
-- *2023.09 - now*, Shanghai AI Laboratory, Shanghai, China
+- *2023.09 - 2025.11*, Shanghai AI Laboratory, Shanghai, China
 
 <p>
   <center>
