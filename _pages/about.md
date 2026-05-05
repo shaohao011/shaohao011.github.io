@@ -20,7 +20,7 @@ I'm now a PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong Un
 
 **I'm currently working on a startup focusing on glasses-free 3D display technology. Welcome students with backgrounds in 3D reconstruction and interactive world models to apply for internships and collaborate! Please send your resume to hr@lynnreal.com**
 
-Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning 
+Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning. My dream is to contribute to achieving the "GPT Moment" for Vision. 
 
 
 
