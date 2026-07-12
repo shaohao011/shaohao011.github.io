@@ -76,6 +76,20 @@
             width: 100%;
             max-width: 420px;
         }
+        > div::before {
+            content: attr(data-venue);
+            position: absolute;
+            z-index: 1;
+            top: .5em;
+            left: -.35em;
+            padding: .25em .75em;
+            color: white;
+            background-color: #b23a48;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, .18);
+            font-size: .78em;
+            font-weight: 700;
+            line-height: 1.3;
+        }
         img {
             width: 100%;
             max-width: 420px;
@@ -108,7 +122,6 @@
 
 
 }
-
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
@@ -117,18 +130,4 @@ h1:before, .anchor:before {
     width: 0; 
     height: $scroll_offset; 
     margin-top: -$scroll_offset;
-}
-
-.badge {
-    position: absolute;
-    z-index: 1;
-    top: .5em;
-    left: -.35em;
-    padding: .25em .75em;
-    color: white;
-    background-color: #00369f;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .18);
-    font-size: .78em;
-    font-weight: 700;
-    line-height: 1.3;
 }
