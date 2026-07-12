@@ -72,7 +72,7 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div data-venue="Technical Report 2026"><img src='images/biwm_overview.svg' alt="BiWM" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div data-venue="Technical Report 2026"><img src='images/biwm_overview.png' alt="BiWM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression](https://arxiv.org/abs/2606.10135)
