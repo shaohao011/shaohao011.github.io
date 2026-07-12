@@ -87,6 +87,12 @@
 
 }
 
+.pub-venue {
+    display: block;
+    margin-top: 1.5em;
+    font-weight: 700;
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
