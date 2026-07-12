@@ -27,7 +27,7 @@ Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning.
 - [2026-07] 🎉 One paper accepted by NPJ Digital Medicine (<span style="color: #e74c3c;">IF=18.0</span>).
 - [2026-07] 🎉 One paper accepted by Medical Image Analysis (<span style="color: #e74c3c;">IF=14.0</span>).
 - [2026-07] 🎉 One paper accepted by ACM MM 2026.
-- [2026-06] 🎉 One paper (PackForcing) accepted by ECCV 2026.
+- [2026-06] 🎉 One paper accepted by ECCV 2026.
 - [2026-06] Open-sourced BiWM, the first bidirectional autoregressive training framework in the field.
 - [2026-05] 🎉 One paper accepted by ICML 2026.
 - [2026-02] 🎉 One paper accepted by CVPR 2026.
