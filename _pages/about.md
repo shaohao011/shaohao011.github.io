@@ -140,7 +140,7 @@ Multimodal Survival Analysis](https://ieeexplore.ieee.org/abstract/document/1146
 **Shaohao Rui**, Haoyang Su, Jinyi Xiang,
 Lian-Ming Wu, and Xiaosong Wang, ICASSP 2026 <span style="color: #e74c3c;">Oral</span>
 
-<div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11461484">[Paper]</a><a href="https://github.com/shaohao011/MACE-MAIS">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-cardiocot', 'CardioCoT: Hierarchical Reasoning for Multimodal Survival Analysis')">[BibTeX]</a></div>
+<div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11461484">[Paper]</a><a href="https://github.com/shaohao011/CardioCoT.git">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-cardiocot', 'CardioCoT: Hierarchical Reasoning for Multimodal Survival Analysis')">[BibTeX]</a></div>
 
 <span> We propose CardioCoT, a hierarchical reasoning-enhanced survival analysis framework for MACE recurrence risk prediction in AMI patients, leveraging postoperative cardiac MRI and clinical notes. CardioCoT integrates evidence-augmented reasoning with imaging data, achieving superior predictive performance and interpretability to support precision clinical decision-making.</span>
 
