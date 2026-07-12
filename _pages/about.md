@@ -42,9 +42,7 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 
 # 📝 Selected Publications 
 
-<span class="pub-venue">ECCV 2026</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='https://raw.githubusercontent.com/ShandaAI/PackForcing/main/assets/overview.png' alt="PackForcing" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='https://raw.githubusercontent.com/ShandaAI/PackForcing/main/assets/overview.png' alt="PackForcing" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference](https://arxiv.org/abs/2603.25730)
@@ -60,9 +58,7 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 </div>
 </div>
 
-<span class="pub-venue">ICML 2026</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/adathinkmed.png' alt="AdaThink-Med" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration](https://arxiv.org/abs/2509.24560)
@@ -76,9 +72,7 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 </div>
 </div>
 
-<span class="pub-venue">CVPR 2026</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/invcoss.png' alt="InvCoSS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/invcoss.png' alt="InvCoSS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training](https://arxiv.org/abs/2512.19213)
@@ -94,9 +88,7 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 </div>
 </div>
 
-<span class="pub-venue">ICASSP 2026</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/cardio_cot.png' alt="CardioCoT" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/cardio_cot.png' alt="CardioCoT" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CardioCoT: Hierarchical Reasoning for
@@ -112,9 +104,7 @@ Lian-Ming Wu, and Xiaosong Wang, ICASSP 2026 <span style="color: #e74c3c;">Oral<
 </div>
 </div>
 
-<span class="pub-venue">CVPR 2025</span>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/cvpr2025.png' alt="BrainMVP" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/cvpr2025.png' alt="BrainMVP" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [BrainMVP: Multi-modal Vision Pre-training for Medical Image Analysis](https://github.com/shaohao011/BrainMVP)

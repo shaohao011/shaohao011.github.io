@@ -40,14 +40,30 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+#main {
+    max-width: 1320px;
+}
+
+@include breakpoint($large) {
+    .sidebar {
+        width: 15%;
+    }
+
+    .page {
+        width: 82%;
+        padding-left: 2%;
+        padding-right: 0;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
+    padding: 1.5em 0 1.5em 0;
     
 
     .paper-box-image{
@@ -55,8 +71,14 @@
         display: flex;
         width: 100%;
         order: 2;
+        > div {
+            position: relative;
+            width: 100%;
+            max-width: 420px;
+        }
         img {
-            max-width: 400px;
+            width: 100%;
+            max-width: 420px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
         }
@@ -70,27 +92,21 @@
     @include breakpoint($medium) {
         .paper-box-image{
             justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
+            min-width: 260px;
+            max-width: 34%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
+            padding-left: 1.8em;
+            max-width: 66%;
             order: 2;
         }
 
     }
 
 
-}
-
-.pub-venue {
-    display: block;
-    margin-top: 1.5em;
-    font-weight: 700;
 }
 
 $scroll_offset : 2em;
@@ -104,12 +120,15 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
     position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    z-index: 1;
+    top: .5em;
+    left: -.35em;
+    padding: .25em .75em;
     color: white;
     background-color: #00369f;
-    font-size: .8em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .18);
+    font-size: .78em;
+    font-weight: 700;
+    line-height: 1.3;
 }
