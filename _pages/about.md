@@ -18,16 +18,21 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm now a 2nd-year PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>, <a href='https://www.sii.edu.cn/'>Shanghai Innovation Institute</a>, advised by Prof. <a href='https://scholar.google.com/citations?user=c66GnOEAAAAJ&hl=en'>Xiaosong Wang</a>.
 
-<span style="color: #e74c3c; font-style: italic;">NOTE: I'm currently working on a startup focusing on glasses-free 3D display technology. Welcome students with backgrounds in 3D reconstruction and interactive world models to apply for internships and collaborate! Please send your resume to hr@lynnreal.com</span>
+Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning.
 
-Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning. My dream is to contribute to achieving the "GPT Moment" for Vision.
+<span style="color: #e74c3c; font-style: italic;">NOTE: I'm currently working on a startup focusing on glasses-free 3D display technology. Welcome students with backgrounds in 3D reconstruction and interactive world models to apply for internships and collaborate! Please send your resume to hr@lynnreal.com</span>
 
 
 # 🔥 News
+- [2026-07] 🎉 One paper accepted by NPJ Digital Medicine (IF=18.0).
+- [2026-07] 🎉 One paper accepted by Medical Image Analysis (IF=11.8).
+- [2026-07] 🎉 One paper accepted by ACM MM 2026.
+- [2026-06] 🎉 One paper (PackForcing) accepted by ECCV 2026.
+- [2026-06] Open-sourced BiWM, the first bidirectional autoregressive training framework in the field.
 - [2026-05] 🎉 One paper accepted by ICML 2026.
 - [2026-02] 🎉 One paper accepted by CVPR 2026.
 - [2026-01] 🎉 One paper accepted by ICASSP 2026 as Oral.
-- [2025-12] Started internship at Shanda AI Tokyo Research Institute (盛大 AI 东京研究院).
+- [2025-12] Started internship at Shanda AI Tokyo Research Institute.
 - [2025-02] 🎉 Two papers accepted by MICCAI 2025.
 - [2025-02] 🎉 One paper accepted by CVPR 2025 as Highlight.
 - [2024-09] Started joint Ph.D. program at Shanghai Innovation Institute.
@@ -119,7 +124,7 @@ Lian-Ming Wu, and Xiaosong Wang
 - *2024.09 - now*, PHD, Shanghai Jiao Tong University.
 
 # 💼 Internships
-- *2025.12 - 2026.04*, Shanda AI Tokyo Research Institute (盛大 AI 东京研究院), Tokyo, Japan
+- *2025.12 - 2026.04*, Shanda AI Tokyo Research Institute, Tokyo, Japan
 - *2023.09 - 2025.11*, Shanghai AI Laboratory, Shanghai, China
 
 <p>
