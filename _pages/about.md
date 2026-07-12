@@ -15,6 +15,19 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div id="bibtex-modal" class="bibtex-modal">
+  <div class="bibtex-modal-content">
+    <div class="bibtex-modal-header">
+      <h3 id="bibtex-title">BibTeX Citation</h3>
+      <button class="bibtex-close" onclick="closeBibTeX()">&times;</button>
+    </div>
+    <pre id="bibtex-content" class="bibtex-content"></pre>
+    <div class="bibtex-actions">
+      <button class="bibtex-copy-btn" onclick="copyBibTeX()">Copy</button>
+    </div>
+  </div>
+</div>
+
 <span class='anchor' id='about-me'></span>
 I'm now a 2nd-year PhD student at <a href='https://en.sjtu.edu.cn/'>Shanghai Jiao Tong University</a>, <a href='https://www.sii.edu.cn/'>Shanghai Innovation Institute</a>, advised by Prof. <a href='https://scholar.google.com/citations?user=c66GnOEAAAAJ&hl=en'>Xiaosong Wang</a> and Prof. <a href='https://weijiemax.github.io/'>Weijie Ma</a>.
 
@@ -49,12 +62,12 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 
 ***Shaohao Rui***, Kaitao Chen, Weijie Ma, Xiaosong Wang, ACM MM 2026
 
-<div class="pub-links"><a href="https://arxiv.org/abs/2505.19213">[Paper]</a><a href="https://github.com/shaohao011/MedCCO">[Code]</a><input class="bibtex-toggle" id="bib-medcco" type="checkbox"><label class="bibtex-label" for="bib-medcco">[BibTeX]</label><pre class="bibtex-content">@article{rui2025improving,
+<div class="pub-links"><a href="https://arxiv.org/abs/2505.19213">[Paper]</a><a href="https://github.com/shaohao011/MedCCO">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-medcco', 'MedCCO: Improving Medical Reasoning with Curriculum-Aware Reinforcement Learning')">[BibTeX]</a><script type="text/plain" id="bib-medcco">@article{rui2025improving,
   title={Improving medical reasoning with curriculum-aware reinforcement learning},
   author={Rui, Shaohao and Chen, Kaitao and Ma, Weijie and Wang, Xiaosong},
   journal={arXiv preprint arXiv:2505.19213},
   year={2025}
-}</pre></div>
+}</script></div>
 
 <span> We introduce MedCCO, a curriculum-driven reinforcement learning framework that unifies close-ended and open-ended medical VQA to improve robust, clinically relevant multimodal reasoning.</span>
 
@@ -70,12 +83,12 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 
 <span style="font-size:0.9em">\* Equal contribution.</span>
 
-<div class="pub-links"><a href="https://arxiv.org/abs/2603.25730">[Paper]</a><a href="https://github.com/ShandaAI/PackForcing">[Code]</a><input class="bibtex-toggle" id="bib-packforcing" type="checkbox"><label class="bibtex-label" for="bib-packforcing">[BibTeX]</label><pre class="bibtex-content">@article{mao2026packforcing,
+<div class="pub-links"><a href="https://arxiv.org/abs/2603.25730">[Paper]</a><a href="https://github.com/ShandaAI/PackForcing">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-packforcing', 'PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference')">[BibTeX]</a><script type="text/plain" id="bib-packforcing">@article{mao2026packforcing,
   title={Packforcing: Short video training suffices for long video sampling and long context inference},
   author={Mao, Xiaofeng and Rui, Shaohao and Ying, Kaining and Zheng, Bo and Li, Chuanhao and Chi, Mingmin and Zhang, Kaipeng},
   journal={arXiv preprint arXiv:2603.25730},
   year={2026}
-}</pre></div>
+}</script></div>
 
 <span> We present PackForcing, a framework for autoregressive video diffusion that manages generation history with a three-partition KV-cache: sink tokens for global semantics, highly compressed mid tokens (with dynamic top-k selection), and full-resolution recent tokens for local coherence, plus Temporal RoPE adjustment. It enables long coherent video generation with bounded memory—for example ~2-minute 832×480 video at 16 FPS on one H200 with ~4 GB KV cache and strong VBench temporal metrics—using only short-clip supervision.</span>
 
@@ -91,12 +104,12 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 
 <span style="font-size:0.9em">\* Equal contribution.</span>
 
-<div class="pub-links"><a href="https://arxiv.org/abs/2606.10135">[Paper]</a><a href="https://github.com/LynnReal-AI/BiWM">[Code]</a><input class="bibtex-toggle" id="bib-biwm" type="checkbox"><label class="bibtex-label" for="bib-biwm">[BibTeX]</label><pre class="bibtex-content">@article{rui2026biwm,
+<div class="pub-links"><a href="https://arxiv.org/abs/2606.10135">[Paper]</a><a href="https://github.com/LynnReal-AI/BiWM">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-biwm', 'BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression')">[BibTeX]</a><script type="text/plain" id="bib-biwm">@article{rui2026biwm,
   title={BiWM: Advancing Open-Source Interactive Video World Models with Bidirectional Autoregression},
   author={Rui, Shaohao and Mao, Xiaofeng and Zhang, Zhanyu and Lin, Peijia and Zhu, Yansong and Zhang, Yibo and Wan, Haibin and Ma, Weijie},
   journal={arXiv preprint arXiv:2606.10135},
   year={2026}
-}</pre></div>
+}</script></div>
 
 <span> We present BiWM, an open-source full-stack framework for interactive video world models under the bidirectional autoregressive paradigm, balancing generation quality, controllability, and inference speed.</span>
 
@@ -110,12 +123,12 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 
 ***Shaohao Rui***, Kaitao Chen, Weijie Ma, Xiaosong Wang, ICML 2026
 
-<div class="pub-links"><a href="https://arxiv.org/abs/2509.24560">[Paper]</a><a href="https://github.com/shaohao011/AdaThinkMed">[Code]</a><input class="bibtex-toggle" id="bib-adathink" type="checkbox"><label class="bibtex-label" for="bib-adathink">[BibTeX]</label><pre class="bibtex-content">@article{rui2025adathink,
+<div class="pub-links"><a href="https://arxiv.org/abs/2509.24560">[Paper]</a><a href="https://github.com/shaohao011/AdaThinkMed">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-adathink', 'AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration')">[BibTeX]</a><script type="text/plain" id="bib-adathink">@article{rui2025adathink,
   title={AdaThink-Med: Medical Adaptive Thinking with Uncertainty-Guided Length Calibration},
   author={Rui, Shaohao and Chen, Kaitao and Ma, Weijie and Wang, Xiaosong},
   journal={arXiv preprint arXiv:2509.24560},
   year={2025}
-}</pre></div>
+}</script></div>
 
 <span> We propose AdaThink-Med, an end-to-end framework that improves adaptive thinking in medical reasoning LLMs via uncertainty-guided length calibration—penalizing overly long chains on easy, solved cases while encouraging deeper reasoning on hard ones. On six medical QA benchmarks it cuts average output length by up to 6.4× with only minor accuracy loss and yields emergent “thinking” vs. “non-thinking” modes.</span>
 
@@ -131,13 +144,13 @@ Research Interest: World Models, Video Generation, LLM & VLM Reasoning, 3D Recon
 
 <span style="font-size:0.9em">\* Equal contribution.</span>
 
-<div class="pub-links"><a href="https://arxiv.org/abs/2512.19213">[Paper]</a><a href="https://github.com/Zihaoluoh/InvCoSS">[Code]</a><input class="bibtex-toggle" id="bib-invcoss" type="checkbox"><label class="bibtex-label" for="bib-invcoss">[BibTeX]</label><pre class="bibtex-content">@inproceedings{luo2026invcoss,
+<div class="pub-links"><a href="https://arxiv.org/abs/2512.19213">[Paper]</a><a href="https://github.com/Zihaoluoh/InvCoSS">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-invcoss', 'InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training')">[BibTeX]</a><script type="text/plain" id="bib-invcoss">@inproceedings{luo2026invcoss,
   title={InvCoSS: Inversion-driven Continual Self-supervised Learning in Medical Multi-modal Image Pre-training},
   author={Luo, Zihao and Rui, Shaohao and Tang, Zhenyu and Wang, Guotai and Wang, Xiaosong},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={42626--42636},
   year={2026}
-}</pre></div>
+}</script></div>
 
 <span> We propose InvCoSS, an inversion-driven continual self-supervised learning framework for medical multi-modal image pre-training. It synthesizes images by inverting prior-stage models—avoiding raw data replay—while mitigating catastrophic forgetting under privacy constraints. We introduce InvUNet for higher-fidelity inversion and repulsive representation learning to improve diversity; experiments on nine downstream tasks show performance comparable to or better than data-replay methods without storing past raw data.</span>
 
@@ -153,14 +166,14 @@ Multimodal Survival Analysis](https://ieeexplore.ieee.org/abstract/document/1146
 **Shaohao Rui**, Haoyang Su, Jinyi Xiang,
 Lian-Ming Wu, and Xiaosong Wang, ICASSP 2026 <span style="color: #e74c3c;">Oral</span>
 
-<div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11461484">[Paper]</a><a href="https://github.com/shaohao011/MACE-MAIS">[Code]</a><input class="bibtex-toggle" id="bib-cardiocot" type="checkbox"><label class="bibtex-label" for="bib-cardiocot">[BibTeX]</label><pre class="bibtex-content">@inproceedings{rui2026cardiocot,
+<div class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/11461484">[Paper]</a><a href="https://github.com/shaohao011/MACE-MAIS">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-cardiocot', 'CardioCoT: Hierarchical Reasoning for Multimodal Survival Analysis')">[BibTeX]</a><script type="text/plain" id="bib-cardiocot">@inproceedings{rui2026cardiocot,
   title={Cardiocot: Multimodal Prediction of Mace Recurrence Risk with Hierarchical Chain-of-Thought Reasoning},
   author={Rui, Shaohao and Su, Haoyang and Xiang, Jinyi and Wu, Lian-Ming and Wang, Xiaosong},
   booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   pages={11812--11816},
   year={2026},
   organization={IEEE}
-}</pre></div>
+}</script></div>
 
 <span> We propose CardioCoT, a hierarchical reasoning-enhanced survival analysis framework for MACE recurrence risk prediction in AMI patients, leveraging postoperative cardiac MRI and clinical notes. CardioCoT integrates evidence-augmented reasoning with imaging data, achieving superior predictive performance and interpretability to support precision clinical decision-making.</span>
 
@@ -174,13 +187,13 @@ Lian-Ming Wu, and Xiaosong Wang, ICASSP 2026 <span style="color: #e74c3c;">Oral<
 
 ***Shaohao Rui***, Lingzhi Chen, Zhenyu Tang, Lilong Wang, Mianxin Liu, Shaoting Zhang, Xiaosong Wang, CVPR 2025 <span style="color: #e74c3c;">Highlight</span>
 
-<div class="pub-links"><a href="https://github.com/shaohao011/BrainMVP">[Paper]</a><a href="https://github.com/shaohao011/BrainMVP">[Code]</a><input class="bibtex-toggle" id="bib-brainmvp" type="checkbox"><label class="bibtex-label" for="bib-brainmvp">[BibTeX]</label><pre class="bibtex-content">@inproceedings{rui2025multi,
+<div class="pub-links"><a href="https://github.com/shaohao011/BrainMVP">[Paper]</a><a href="https://github.com/shaohao011/BrainMVP">[Code]</a><a href="javascript:void(0);" onclick="showBibTeX('bib-brainmvp', 'BrainMVP: Multi-modal Vision Pre-training for Medical Image Analysis')">[BibTeX]</a><script type="text/plain" id="bib-brainmvp">@inproceedings{rui2025multi,
   title={Multi-modal vision pre-training for medical image analysis},
   author={Rui, Shaohao and Chen, Lingzhi and Tang, Zhenyu and Wang, Lilong and Liu, Mianxin and Zhang, Shaoting and Wang, Xiaosong},
   booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
   pages={5164--5174},
   year={2025}
-}</pre></div>
+}</script></div>
 
 <span> We introduce the first multi-modal vision pre-training method (BrainMVP) for missing modality medical data. We demonstrate the superior performance and the enhanced generalizability of our BrainMVP pre-trained models on ten public segmentation and classification
 benchmarks compared to state-of-the-art methods.</span>
@@ -209,3 +222,36 @@ benchmarks compared to state-of-the-art methods.</span>
   </div> 
   </center>
  </p >
+
+<script>
+function showBibTeX(bibId, title) {
+  var source = document.getElementById(bibId);
+  var modal = document.getElementById('bibtex-modal');
+  var titleElement = document.getElementById('bibtex-title');
+  var contentElement = document.getElementById('bibtex-content');
+  if (!source || !modal || !titleElement || !contentElement) return;
+  titleElement.textContent = title || 'BibTeX Citation';
+  contentElement.textContent = source.textContent.trim();
+  modal.style.display = 'block';
+}
+
+function closeBibTeX() {
+  var modal = document.getElementById('bibtex-modal');
+  if (modal) modal.style.display = 'none';
+}
+
+function copyBibTeX() {
+  var contentElement = document.getElementById('bibtex-content');
+  if (!contentElement) return;
+  navigator.clipboard.writeText(contentElement.textContent);
+}
+
+window.addEventListener('click', function(event) {
+  var modal = document.getElementById('bibtex-modal');
+  if (event.target === modal) closeBibTeX();
+});
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') closeBibTeX();
+});
+</script>
