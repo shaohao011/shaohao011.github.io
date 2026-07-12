@@ -123,22 +123,22 @@
 
 }
 
-.bibtex {
-    display: inline;
+.pub-links {
+    margin-bottom: 1em;
 
-    summary {
-        display: inline;
+    a,
+    .bibtex-label {
         color: #00369f;
         cursor: pointer;
         text-decoration: underline;
     }
 
-    summary::-webkit-details-marker {
+    .bibtex-toggle {
         display: none;
     }
 
-    pre {
-        display: block;
+    .bibtex-content {
+        display: none;
         margin-top: .6em;
         padding: .8em 1em;
         border: 1px solid #d8dee6;
@@ -148,6 +148,10 @@
         line-height: 1.45;
         white-space: pre-wrap;
         overflow-x: auto;
+    }
+
+    .bibtex-toggle:checked + .bibtex-label + .bibtex-content {
+        display: block;
     }
 }
 
