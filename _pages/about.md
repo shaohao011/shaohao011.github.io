@@ -24,17 +24,17 @@ Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning.
 
 
 # 🔥 News
-- [2026-07] 🎉 One paper accepted by NPJ Digital Medicine (IF=18.0).
-- [2026-07] 🎉 One paper accepted by Medical Image Analysis (IF=11.8).
+- [2026-07] 🎉 One paper accepted by NPJ Digital Medicine (<span style="color: #e74c3c;">IF=18.0</span>).
+- [2026-07] 🎉 One paper accepted by Medical Image Analysis (<span style="color: #e74c3c;">IF=14.0</span>).
 - [2026-07] 🎉 One paper accepted by ACM MM 2026.
 - [2026-06] 🎉 One paper (PackForcing) accepted by ECCV 2026.
 - [2026-06] Open-sourced BiWM, the first bidirectional autoregressive training framework in the field.
 - [2026-05] 🎉 One paper accepted by ICML 2026.
 - [2026-02] 🎉 One paper accepted by CVPR 2026.
-- [2026-01] 🎉 One paper accepted by ICASSP 2026 as Oral.
+- [2026-01] 🎉 One paper accepted by ICASSP 2026 as <span style="color: #e74c3c;">Oral</span>.
 - [2025-12] Started internship at Shanda AI Tokyo Research Institute.
 - [2025-02] 🎉 Two papers accepted by MICCAI 2025.
-- [2025-02] 🎉 One paper accepted by CVPR 2025 as Highlight.
+- [2025-02] 🎉 One paper accepted by CVPR 2025 as <span style="color: #e74c3c;">Highlight</span>.
 - [2024-09] Started joint Ph.D. program at Shanghai Innovation Institute.
 - [2023-09] Started internship at Shanghai AI Laboratory.
 
@@ -44,7 +44,7 @@ Current Research Interest: World Models, Video Generation, LLM & VLM Reasoning.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/cvpr2025.png' alt="BrainMVP" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[BrainMVP: Multi-modal Vision Pre-training for Medical Image Analysis](https://github.com/shaohao011/BrainMVP)***[CVPR2025 Highlight]***
+[BrainMVP: Multi-modal Vision Pre-training for Medical Image Analysis](https://github.com/shaohao011/BrainMVP)***[CVPR2025 <span style="color: #e74c3c;">Highlight</span>]***
 
 ***Shaohao Rui***, Lingzhi Chen, Zhenyu Tang, Lilong Wang, Mianxin Liu, Shaoting Zhang, Xiaosong Wang
 
@@ -102,7 +102,7 @@ benchmarks compared to state-of-the-art methods.</span>
 <div class='paper-box-text' markdown="1">
 
 [CardioCoT: Hierarchical Reasoning for
-Multimodal Survival Analysis](https://ieeexplore.ieee.org/abstract/document/11461484)***[ICASSP Oral]***
+Multimodal Survival Analysis](https://ieeexplore.ieee.org/abstract/document/11461484)***[ICASSP <span style="color: #e74c3c;">Oral</span>]***
 
 **Shaohao Rui**, Haoyang Su, Jinyi Xiang,
 Lian-Ming Wu, and Xiaosong Wang
